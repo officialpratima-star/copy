@@ -4,7 +4,7 @@ import java.util.Random;
 public class jhj{
     
     public static void main(String[] arg) {
-        String[] choices = {"1", "2", "3"};
+        String[] choices = {"snake", "gun ", "water"};
 
 
         
@@ -30,12 +30,16 @@ if (f.equalsIgnoreCase("snake")) {
 
 if(choice-random ==1 || choice-random ==-2){
     System.out.println("You win! ");
+    System.out.println( "Computer chose: " + g);
+
 }
 else if(f==g){
     System.out.println("It's a tie! ");
+    System.out.println( "Computer chose: " + g);
 }
     else {
     System.out.println("You lose! ");
+    System.out.println( "Computer chose: " + g);
     }
     }
 }
